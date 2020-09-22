@@ -47,10 +47,18 @@ const ball = {
   color: '#05EDFF'
 }
 
+drawNet = () => {
+  ctx.fillStyle = net.color
+  ctx.fillRect(net.x, net.y, net.width, net.height)
+}
+
+
 
 render = () => {
   ctx.fillStyle = '#000'
   ctx.fillRect(0,0, canvas.width, canvas.height)
+
+  drawNet()
 }
 
 render();
