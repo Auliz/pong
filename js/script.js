@@ -47,7 +47,7 @@ const ball = {
   x: canvas.width / 2,
   y: canvas.height / 2,
   radius: 7,
-  speed: 7,
+  speed: 5,
   velocityX: 5,
   velocityY: 5,
   color: '#ffa500',
