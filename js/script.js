@@ -46,8 +46,8 @@ const ai = {
 const ball = {
   x: canvas.width / 2,
   y: canvas.height / 2,
-  radius: 7,
-  speed: 5,
+  radius: 9, // 7 base level
+  speed: 5, // 7 base level
   velocityX: 5,
   velocityY: 5,
   color: '#ffa500',
